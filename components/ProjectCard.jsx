@@ -1,3 +1,4 @@
+"use client";
 // next js
 import Link from "next/link";
 import Image from "next/image";
@@ -17,11 +18,10 @@ const ProjectCard = ({ project }) => {
           <Image
             className=" absolute bottom-0 shadow-2xl"
             src={project.image}
-            width={project.name === "貪吃蛇遊戲" ? 170 : 400}
-            height="250"
+            width={project.name === "貪吃蛇遊戲" ? 170 : 358}
+            height={250}
             alt=""
             priority
-            layout="fixed"
           />
           {/* btn */}
           <div className="flex gap-x-4">
