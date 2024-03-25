@@ -32,7 +32,7 @@ const Hero = () => {
               </Link>
               <Link
                 target="_blank"
-                href="https://pda.104.com.tw/profile/share/5eUSUCt4nn225hbl0VtpqWxPAesJh6ti"
+                href="https://pda.104.com.tw/profile/share/5eqrZtp01K6kqDo9aGteQRdnhYyHSDfR"
               >
                 <Button variant="secondary" className="gap-x-2">
                   104人力銀行 CV <Download size={18} />

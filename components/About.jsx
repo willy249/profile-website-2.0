@@ -47,25 +47,34 @@ const skillData = [
     title: "skills",
     data: [
       {
-        name: "HTML5、CSS3、JavaScript",
+        name: "- 熟悉 HTML5、CSS3、JavaScript",
       },
       {
-        name: "Bootstrap、Tailwind CSS",
+        name: "- 熟悉 RWD響應式網頁設計",
       },
       {
-        name: "React（Hooks / Redux）",
+        name: "- 擅長使用 React（Hooks / Redux&toolkit）& Tailwind CSS",
       },
       {
-        name: "JQuery、TypeScript",
+        name: "- 了解 Bootstrap",
       },
       {
-        name: "MySQL、MongoDB (Mongoose)",
+        name: "- 了解 TypeScript",
       },
       {
-        name: "Node.js（Express, EJS）、AJAX",
+        name: "- 了解 JQuery",
       },
       {
-        name: "Java",
+        name: "- 熟悉 Webpack",
+      },
+      {
+        name: "- 了解 MySQL、MongoDB (Mongoose)",
+      },
+      {
+        name: "- 熟悉 Node.js（Express, EJS）、AJAX",
+      },
+      {
+        name: "- Java",
       },
     ],
   },
@@ -176,10 +185,10 @@ const About = () => {
                             const { name } = item;
                             return (
                               <div
-                                className="w-2/4 text-center xl:text-left mx-auto xl:mx-0"
+                                className="w-3/4 text-center xl:text-left mx-auto xl:mx-0 pt-1"
                                 key={index}
                               >
-                                <div className=" font-medium">{name}</div>
+                                <p className=" font-medium">{name}</p>
                               </div>
                             );
                           }
