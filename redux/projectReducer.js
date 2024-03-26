@@ -1,9 +1,18 @@
 let dataState = {
   projectData: [
     {
+      image: "/work/7.png",
+      category: "React JS",
+      name: "2_切版練習",
+      description:
+        "使用 React 和 Vite 構建靜態網頁，樣式設計使用 Tailwind CSS。利用 AOS 庫實現滾動時的動畫效果，並透過添加視訊背景來為網頁增添動態效果。",
+      link: "https://space-websites.netlify.app/",
+      github: "https://github.com/willy249/Space-Website",
+    },
+    {
       image: "/work/6.png",
       category: "React JS",
-      name: "切版練習",
+      name: "1_切版練習",
       description:
         "使用 React 和 Vite 構建靜態網頁，樣式設計使用 Tailwind CSS，並通過 AOS 添加滾動時的動畫效果。",
       link: "https://metaverse-websites.netlify.app/",
