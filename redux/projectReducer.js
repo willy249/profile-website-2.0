@@ -1,6 +1,15 @@
 let dataState = {
   projectData: [
     {
+      image: "/work/8.png",
+      category: "React JS",
+      name: "3_切版練習",
+      description:
+        "使用 React&Next JS 構建靜態網頁，结合Tailwind CSS，引入 Shadcn-UI 和 Swiper。利用Framer-motion庫取代AOS實現滾動動畫，同时使用React-countup實現計數動畫。",
+      link: "https://hotel-pages.netlify.app/",
+      github: "https://github.com/willy249/Hotel-page",
+    },
+    {
       image: "/work/7.png",
       category: "React JS",
       name: "2_切版練習",
