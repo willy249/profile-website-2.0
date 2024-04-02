@@ -1,3 +1,4 @@
+"use client";
 // components
 import DevImg from "./DevImg";
 
@@ -47,13 +48,13 @@ const skillData = [
     title: "skills",
     data: [
       {
-        name: "- 熟悉 HTML5、CSS3、JavaScript",
-      },
-      {
-        name: "- 熟悉 RWD響應式網頁設計",
-      },
-      {
         name: "- 擅長使用 React（Hooks / Redux&toolkit）& Tailwind CSS",
+      },
+      {
+        name: "- 熟悉 HTML5、CSS3、JavaScript、RWD 響應式網頁設計",
+      },
+      {
+        name: "- 熟悉 Node.js（Express, EJS）、AJAX、Webpack",
       },
       {
         name: "- 了解 Bootstrap",
@@ -65,16 +66,10 @@ const skillData = [
         name: "- 了解 JQuery",
       },
       {
-        name: "- 熟悉 Webpack",
-      },
-      {
         name: "- 了解 MySQL、MongoDB (Mongoose)",
       },
       {
-        name: "- 熟悉 Node.js（Express, EJS）、AJAX",
-      },
-      {
-        name: "- Java",
+        name: "- 了解 Java基礎",
       },
     ],
   },

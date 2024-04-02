@@ -20,7 +20,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressContentEditableWarning>
+    <html lang="en" suppressContentEditableWarning suppressHydrationWarning>
       <body className={outfit.className}>
         <ReduxProvider>
           <ThemeProvider attribute="class" defaultTheme="light">

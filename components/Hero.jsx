@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
 
@@ -21,7 +23,7 @@ const Hero = () => {
             </div>
             <h1 className="h1 mb-4">嗨，我是潘錫諭!</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              一位具有開發熱情的網頁前端工程師。
+              一位深受 Tailwind CSS 吸引的「起名廢」網頁前端工程師。
             </p>
             {/* button */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">

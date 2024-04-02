@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 
@@ -10,7 +12,7 @@ const Logo = () => {
         height={70}
         priority
         alt=""
-        style={{ borderRadius: "50%" }}
+        style={{ borderRadius: "50%", width: 70, height: 70 }}
       />
     </Link>
   );

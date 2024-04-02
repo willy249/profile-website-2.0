@@ -1,11 +1,20 @@
 let dataState = {
   projectData: [
     {
+      image: "/work/9.png",
+      category: "Next JS",
+      name: "4_切版練習",
+      description:
+        "利用 Next.js 和 TypeScript 建立靜態網頁，樣式以 Tailwind CSS 為基礎，並整合 Swiper 套件以提供流暢的輪播效果。同時，採用 react-scroll 庫實現導覽列的平滑滾動。",
+      link: "https://gym-webs.netlify.app/",
+      github: "https://github.com/willy249/Gym-Website",
+    },
+    {
       image: "/work/8.png",
-      category: "React JS",
+      category: "Next JS",
       name: "3_切版練習",
       description:
-        "使用 React&Next JS 構建靜態網頁，结合Tailwind CSS，引入 Shadcn-UI 和 Swiper。利用Framer-motion庫取代AOS實現滾動動畫，同时使用React-countup實現計數動畫。",
+        "使用 Next JS 構建靜態網頁，结合Tailwind CSS，引入 Shadcn-UI 和 Swiper。利用Framer-motion庫取代AOS實現滾動動畫，同时使用React-countup實現計數動畫。",
       link: "https://hotel-pages.netlify.app/",
       github: "https://github.com/willy249/Hotel-page",
     },

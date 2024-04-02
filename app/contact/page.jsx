@@ -1,3 +1,5 @@
+"use client";
+
 // npm package
 import { MailIcon, HomeIcon, PhoneCall } from "lucide-react"; //lucide-react
 

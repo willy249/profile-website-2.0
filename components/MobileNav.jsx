@@ -1,3 +1,5 @@
+"use client";
+
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"; // shadcn-ui
 import { AlignJustify } from "lucide-react"; // lucide-react
 
