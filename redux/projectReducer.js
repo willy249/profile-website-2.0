@@ -1,6 +1,16 @@
 let dataState = {
   projectData: [
     {
+      image: "/work/10.png",
+      category: "React JS",
+      name: "Storybook",
+      description:
+        "首次嘗試透過 Storybook 開發 UI 元件。 Storybook🔎 是一個用於開發和測試 UI 組件的工具，它提供了獨立的環境，讓開發人員可以專注於單個組件的開發和測試，而無需將其整合到應用程序中。",
+      link: "https://661653313ea75bb64f98d157-hpbgpqjeih.chromatic.com/",
+      github: "https://github.com/willy249/storybook-react",
+      tag: "持續更新中",
+    },
+    {
       image: "/work/9.png",
       category: "Next JS",
       name: "4_切版練習",

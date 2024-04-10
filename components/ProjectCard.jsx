@@ -51,6 +51,11 @@ const ProjectCard = ({ project }) => {
         <Badge className="uppercase text-sm font-medium mb-2 absolute top-4 left-5">
           {project.category}
         </Badge>
+        {project.tag && (
+          <Badge className="uppercase text-sm font-bold mb-2 absolute top-4 right-5  bg-green-500">
+            {project.tag}
+          </Badge>
+        )}
         <h4 className="h4 mb-1">{project.name}</h4>
         <p className=" text-muted-foreground text-lg">{project.description}</p>
       </div>
